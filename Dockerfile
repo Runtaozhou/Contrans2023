@@ -4,11 +4,13 @@ FROM python:3.11.4-bookworm
 
 COPY requirements.txt requirements.txt
 
-RUN pip install -r requirements.txt
+RUN pip install --upgrade pip
 
-ENV secretpassword=wakanda4eva
+RUN pip install -r requirements.txt
 
 WORKDIR /contrans2023
 
-CMD ["Jupyter","lab","--ip=0.0.0.","--allow-root"]
+EXPOSE 8888
+
+CMD ["jupyter","lab","--ip=0.0.0.0","--allow-root"]
 
