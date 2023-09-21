@@ -10,3 +10,4 @@ Compiled as a class project for DS6600: Data Engineering 1 in the Ph.D. program 
 * congressional votes data: https://htmlpreview.github.io/?https://github.com/Runtaozhou/Contrans2023/blob/main/congress_votes.html
 * individual member votes data: https://htmlpreview.github.io/?https://github.com/Runtaozhou/Contrans2023/blob/main/member_votes.html
 * house of reps elections data: https://htmlpreview.github.io/?https://github.com/Runtaozhou/Contrans2023/blob/main/elections_house.html
+* congress bills: https://jsonhero.io/j/mfgBNfUxVirB
